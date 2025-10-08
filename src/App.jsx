@@ -5,12 +5,12 @@ import Login from "./Component/Login";
 import Register from "./Component/Register";
 import UserDashboard from "./Component/UserDashborad";
 import AdminDashboard from "./Component/AdminDashboard";
-import MainPage from "./Component/MainPage"; // ✅ import the MainPage
+import MainPage from "./Component/MainPage"; // import the MainPage
 
 const App = () => (
   <BrowserRouter>
     <Routes>
-      {/* ✅ Main page as the first landing page */}
+      {/*Main page as the first landing page */}
       <Route path="/" element={<MainPage />} />
 
       {/* Auth pages */}
